@@ -6,10 +6,10 @@ RaspberryPi MQTT relay to combine and forward multiple mqtt topics or raw sensor
   - MQTT transmitters
   - raw sensor data
   - other raw data that can be translated to an MQTT topic
-- Send combined MQTT data streams to a network endpoint (homeassistant planned)
+- Send combined MQTT data streams to a network endpoint (Home Assistant planned)
 
 ## dependencies
-- homeassistant (or alternate network endpoint) that is configured to recieve MQTT streams
+- Home Assistant (or alternate network endpoint) that is configured to recieve MQTT streams
 - RaspberryPi with network connectivity
 - Sensor endpoints that transmit mqtt streams or raw data to Raspberry PI GPIO ports 
 
